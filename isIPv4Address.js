@@ -30,7 +30,7 @@
         {
             for(i=0;i<tab.length;i++)   
             {
-              if(tab[i].match(/\D/) == null)
+              if(!isNaN(tab[i]))
               {
               if(tab[i]=="")
                 {
