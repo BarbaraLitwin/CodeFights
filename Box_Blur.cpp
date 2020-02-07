@@ -8,7 +8,7 @@
 #         [1, 1, 1]]
 #the output should be boxBlur(image) = [[1]].
 #In the given example all boundary pixels were cropped, and the value of the pixel in the middle was obtained as 
-#(1 + 1 + 1 + 1 + 7 + 1 + 1 + 1 + 1) / 9 = 15 / 9 = 1.66666 = 1. The border pixels are cropped from the final result.
+#(1 + 1 + 1 + 1 + 7 + 1 + 1 + 1 + 1) / 9 = 15 / 9 = ~rounded down~ = 1. The border pixels are cropped from the final result.
 
 
 std::vector<std::vector<int>> boxBlur(std::vector<std::vector<int>> image) {
